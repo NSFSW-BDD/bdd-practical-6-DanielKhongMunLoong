@@ -13,5 +13,5 @@ const setting = {
 }
 
 const pool = mysql.createPool(setting);
-
+console.log("Pool started");
 module.exports = pool;
